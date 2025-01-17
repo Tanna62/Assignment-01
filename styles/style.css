@@ -8,6 +8,7 @@
 .fontSW2{
     font-size: 16px;
     font-weight: normal;
+    color: rgb(14,14,14,0.7);
 }
 .fontSW3{
     font-size: 32px;
@@ -20,6 +21,11 @@
 .fontSW5{
     font-size: 56px;
     font-weight: bold;
+}
+.fontSW6{
+    font-size:20px ;
+    font-weight: bold;
+    
 }
 /* google font */
   .fira-sans-thin {
@@ -155,6 +161,7 @@ border:1px solid #006A50 ;
 border-radius: 5px;
 margin-top: 24px;
 margin-bottom: 24px;
+margin-right: 160px;
 text-align: center;
 font-size: 18px;
 font-weight: 700;
@@ -181,7 +188,7 @@ height: 326px;
 margin: 80px 60px;
 }
 .banner{
-    margin: 0 160px;
+    margin: 0 auto;
     width: 1280px;
     height:580px ;
     
@@ -206,5 +213,49 @@ margin: 24px 352px 122px 59px;
     color:rgba(14, 14, 14, 0.5);
     font-size: 16px;
     font-weight:500px ;
-   margin: 117px 60px 0 60px;
+    margin: 117px 60px 0 60px;
 }
+/* Heading1 */
+.heading1{
+  margin-left:160px ;
+  margin-top: 31px;  
+  margin-bottom: 31px;
+  height: 38px;
+  width: 222px;
+  
+}
+/* .first-heading{ 
+  
+    
+    width: 1600px;
+    height: 100px;
+  
+}*/
+/* main section */
+.box-head{
+    display: flex;
+   
+    margin: 0 auto;
+    gap: 25px;
+}
+.box1{
+    height: 244px;
+    width: 302px;
+    /* background-color: #F1F1F3; */
+    padding:20px ;
+    box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+.card-icon{
+    padding: 25px 215px 25px 25px;
+    width: 62px;
+    height: 62px;
+}
+.box-name1{
+    padding-left: 25px ;
+}
+.pillars{
+
+    text-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+} 
+
