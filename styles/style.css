@@ -161,6 +161,7 @@
 display: flex;
 justify-content: space-between;
 }
+
 /* vision button */
 .button-vision-box1{
     background-color: #5490F5;
@@ -169,6 +170,11 @@ justify-content: space-between;
     border-radius: 8px;
     padding: 11px 20px;
 }
+.button-vision-box1:hover
+{
+    background-color: #548ff58f;
+cursor: pointer;
+}
 .button-vision-box2{
     background-color:#09A15C ;
     color: #FFFFFF;
@@ -176,12 +182,20 @@ justify-content: space-between;
     border-radius: 8px;
     padding: 11px 20px;
 }
+.button-vision-box2:hover{
+    background-color:#09a15d7e ;
+    cursor: pointer;
+}
 .button-vision-box3{
     background-color:#FFC239 ;
     color: #FFFFFF;
     border: 2px solid #FFC239;
     border-radius: 8px;
    padding: 11px 20px;
+}
+.button-vision-box3:hover{
+    background-color:#ffc4399d ;
+    cursor: pointer;
 }
 /* button recent news */
 .button4{
@@ -191,6 +205,10 @@ justify-content: space-between;
     border-radius: 8px;
     padding: 11px 20px; 
 }
+.button4:hover{
+    background-color:#006a509f ; 
+    cursor: pointer;
+}
 /* DOnate button */
 .tk-button{
  padding: 35px;
@@ -198,6 +216,10 @@ justify-content: space-between;
  background-color: #FFFFFF;
  border-radius:16px ;
  color: rgba(14, 14, 14, 0.8);
+}
+.tk-button:hover{
+    background-color:#c6e4d6af;
+    cursor: pointer;
 }
 .tk-button2{
     padding: 35px;
@@ -207,11 +229,19 @@ justify-content: space-between;
     color: rgba(14, 14, 14, 0.8);
     margin-left: 24px;
    }
+   .tk-button2:hover{
+    background-color:#c6e4d6af;
+    cursor: pointer;
+}
    .button5{
     border: 1px solid rgba(0, 0, 0, 0.062);
     border-radius:16px ;
     box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
    margin-left:24px ;
+   }
+   .button5:hover{
+    background-color: (0, 0, 0, 0.25);
+    cursor: pointer;
    }
    .buttondone{
     justify-content: center;
@@ -229,6 +259,10 @@ margin-right: 160px;
 text-align: center;
 font-size: 18px;
 font-weight: 700;
+}
+.signin:hover{
+    background-color:#006a509f ; 
+    cursor: pointer;
 }
 /* Banner section */
 .banner-section{
@@ -268,6 +302,11 @@ font-weight: 600px;
 border: 2px solid #006A50;
 border-radius:8px ;
 margin: 24px 352px 122px 59px;
+
+}
+.button2:hover{
+    background-color:#006a509f ; 
+    cursor: pointer;
 }
 .banner-caption{
     margin: 0 60px 0 60px;
