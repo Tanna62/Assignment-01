@@ -205,7 +205,18 @@ justify-content: space-between;
     border-radius:16px ;
     background-color: #C6E4D6;
     color: rgba(14, 14, 14, 0.8);
+    margin-left: 24px;
    }
+   .button5{
+    border: 1px solid rgba(0, 0, 0, 0.062);
+    border-radius:16px ;
+    box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   margin-left:24px ;
+   }
+   .buttondone{
+    justify-content: center;
+   }
+   
 
 .signin{
 color: #006A50;
@@ -378,42 +389,3 @@ margin: 24px 352px 122px 59px;
    
     
  }
-/* Recent news part */
-.recent-news-container{
-    display: flex;
-    box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.satelite-img{
-    padding: 48px;
-    height: 300px;
-    width:400px ;
-  
-    
-}
-img{
-    border:1px solid rgba(0, 0, 0, 0);
-    border-radius: 24px;
-}
-.recent-news-content{
-    padding: 50px 45px 10px,45px;
-}
-.recent-news-time{
-    display: flex;
-    margin: 2px;
-}
-.donate-main-sec{
-    margin: auto;
-    border: 1px solid #FFFFFF;
-    box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin: 32px;
-    width: 1200px;
-    height: 340px; 
-}
-.other-tk{
-    text-align: center;
-    justify-content: center;
-    padding:20px 420px ;
-    border: 1px solid #FFFFFF;
-    box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    color: white;
-}
