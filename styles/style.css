@@ -1,0 +1,210 @@
+/* Shared font and color */
+/* fontSW(size and weight) */
+.fontSW1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.fontSW2{
+    font-size: 16px;
+    font-weight: normal;
+}
+.fontSW3{
+    font-size: 32px;
+    font-weight: bold;
+}
+.fontSW4{
+    font-size: 16px;
+    font-weight: 700px;
+}
+.fontSW5{
+    font-size: 56px;
+    font-weight: bold;
+}
+/* google font */
+  .fira-sans-thin {
+        font-family: "Fira Sans", serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+ .fira-sans-extralight {
+        font-family: "Fira Sans", serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+      .fira-sans-light {
+        font-family: "Fira Sans", serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .fira-sans-regular {
+        font-family: "Fira Sans", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .fira-sans-medium {
+        font-family: "Fira Sans", serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .fira-sans-semibold {
+        font-family: "Fira Sans", serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .fira-sans-bold {
+        font-family: "Fira Sans", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .fira-sans-extrabold {
+        font-family: "Fira Sans", serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+      
+      .fira-sans-black {
+        font-family: "Fira Sans", serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .fira-sans-thin-italic {
+        font-family: "Fira Sans", serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .fira-sans-extralight-italic {
+        font-family: "Fira Sans", serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+      
+      .fira-sans-light-italic {
+        font-family: "Fira Sans", serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .fira-sans-regular-italic {
+        font-family: "Fira Sans", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .fira-sans-medium-italic {
+        font-family: "Fira Sans", serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .fira-sans-semibold-italic {
+        font-family: "Fira Sans", serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+      
+      .fira-sans-bold-italic {
+        font-family: "Fira Sans", serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .fira-sans-extrabold-italic {
+        font-family: "Fira Sans", serif;
+        font-weight: 800;
+        font-style: italic;
+      }
+      
+      .fira-sans-black-italic {
+        font-family: "Fira Sans", serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
+
+
+/* color */
+.color1{
+    background-color:#C6E4D6;
+}
+.color2{
+    color: #006A50;
+}
+/* Button */
+.button1{
+display: flex;
+justify-content: space-between;
+
+
+
+
+}
+.signin{
+color: #006A50;
+padding: 15px;
+border:1px solid #006A50 ;
+border-radius: 5px;
+margin-top: 24px;
+margin-bottom: 24px;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+}
+/* Banner section */
+.banner-section{
+    display: flex;
+    justify-content: space-around;
+    background-color:#C6E4D6 ;
+     margin:0 ;
+     border: 2px solid #C6E4D6;
+    border-radius: 24px;
+    max-width: 1280px;
+    
+}
+.bannerdiv{
+margin:122px 60px ;
+width: 622px ;
+height: 326px;
+
+}
+
+.banner-pic{
+margin: 80px 60px;
+}
+.banner{
+    margin: 0 160px;
+    width: 1280px;
+    height:580px ;
+    
+   
+}
+.button2{
+width: 270px;
+height: 56px;
+background-color: #006A50;
+color: #FFFFFF;
+font-size: 18px;
+font-weight: 600px;
+border: 2px solid #006A50;
+border-radius:8px ;
+margin: 24px 352px 122px 59px;
+}
+.banner-caption{
+    margin: 0 60px 0 60px;
+}
+.banner-name{
+   
+    color:rgba(14, 14, 14, 0.5);
+    font-size: 16px;
+    font-weight:500px ;
+   margin: 117px 60px 0 60px;
+}
